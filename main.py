@@ -18,7 +18,7 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True, 
 ADMIN_SEED_PHRASE = os.getenv('ADMIN_SEED_PHRASE', "exotic estate dinosaur entry century cause inflict balance example stone twin expect")
 
 # Method 2: Use private key directly (fallback)
-ADMIN_PRIVATE_KEY = os.getenv('ADMIN_PRIVATE_KEY', "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80")
+ADMIN_PRIVATE_KEY = os.getenv('ADMIN_PRIVATE_KEY', "0xabb69dff9516c0a2c53d4fc849a3fbbac280ab7f52490fd29a168b5e3292c45f")
 
 ALCHEMY_KEY = os.getenv("ALCHEMY_API_KEY", "j6uyDNnArwlEpG44o93SqZ0JixvE20Tq")
 NETWORK = os.getenv("NETWORK", "mainnet")
